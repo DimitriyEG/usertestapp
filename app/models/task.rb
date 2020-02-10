@@ -1,4 +1,4 @@
 class Task < ApplicationRecord
-    has_many :tiket
-    has_many :user, through: :tiket
+    has_many :tikets
+    has_many :users, through: :tikets
 end
